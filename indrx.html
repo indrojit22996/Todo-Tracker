@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+ <div class="container main-cont">
+  <div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">TODO Name</label>
+    <input type="text" class="form-control todoname" id="formGroupExampleInput" placeholder="TODO Name">
+  </div>
+  <div class="mb-3">
+    <label for="formGroupExampleInput2" class="form-label">Description</label>
+    <input type="text" class="form-control tododes" id="formGroupExampleInput2" placeholder="Description">
+  </div>
+  <div class="container">
+    <h1 class="h4">TODO LIST</h1>
+    <ul class="todolist"></ul>
+    <hr/>
+    <h1 class="h4">TODO FINAL LIST</h1>
+    <ul class="todofinal"></ul>
+  </div>
+  <br/>
+ 
+  <div class="d-grid gap-2">
+    <button class="btn btn-primary submit-btn" type="button">Submit</button>
+   
+  </div>
+ </div>
+
+ 
+
+
+
+    <!-- Axios link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
